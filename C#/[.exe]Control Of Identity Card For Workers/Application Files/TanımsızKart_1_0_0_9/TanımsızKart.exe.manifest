@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TanımsızKart.exe" version="1.0.0.9" publicKeyToken="8d58fcde17d7b3f8" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TanımsızKart" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TanımsızKart.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TanımsızKart.exe" size="232920">
+      <assemblyIdentity name="TanımsızKart" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Ty25jtaN/Elw+v5MagNqf+WPKf8Kmig+8XBcJQjcqAI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="aa\TanımsızKart.resources.dll" size="4608">
+      <assemblyIdentity name="TanımsızKart.resources" version="1.0.0.0" language="aa" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>OQRKssLE7gFDQ/YC4doGUP8jL6/zwRrw7Z4BjFR8I30=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="aa-DJ\TanımsızKart.resources.dll" size="32768">
+      <assemblyIdentity name="TanımsızKart.resources" version="1.0.0.0" language="aa-DJ" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>hg9NeAp8kZuOI6P7cjRLJdm7YUTLPTbqc9sDICS/M5Q=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="tr-TR\TanımsızKart.resources.dll" size="33280">
+      <assemblyIdentity name="TanımsızKart.resources" version="1.0.0.0" language="tr-TR" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vt29Dp/1YxAlVfz3Wsd9876MLE24Zcxq+6Ejs3HzdRY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="TanımsızKart.exe.config" size="540">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ypbNGM1UenqXJWNMAjLVahLNLjGvDsK730ldpjxH9Zw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-G8BAQ84U\mcan" issuerKeyHash="d6cdb0fc6b7f1d928dba5faa103fbb3111a5f73c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>evczrVBV+yvus25IaArAgfG+dL2oNJZit6+upA6nyV4=</DigestValue></Reference></SignedInfo><SignatureValue>8GEZFDqEnWp/gy4aV4NjvaqW1dackvg+mA06wBjMi0u0fRvrEwJVZw1zZaiKOl3qFHOtSE1fEzXOq3zSPT3Q4XDhJ8Tr3HatZ4VO6VPtB+v6iyaLfyBBGsogDmtnMguveZYU1vwqaMkel0O7qYjTT/+smGLd8yIBg86nX1aFy5A=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>+rtIgBR74l9+B1AkMWyxZwG2MhrOVYPsUd8ZXxNxH3OqUtw3ogNPLzwPdZ4HRfgCxGWGD22NfCUFWbAtO+TruFp+lf+ITirwS3SODiNDD0WdQNkDHIw9tmSasa21o2Yfsyw1szRF7wqZfC3PyiVJ7PIybxhdZminMpFoSA+S0Mk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5ec9a70ea4aeafb7629634a8bd74bef181c00a68486eb3ee2bfb5550ad33f77a" Description="" Url=""><as:assemblyIdentity name="TanımsızKart.exe" version="1.0.0.9" publicKeyToken="8d58fcde17d7b3f8" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-G8BAQ84U\mcan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>YJMKfmBd2Q65LFVzrqb5wV5hIc1/U4E41DQiv1XhoAI=</DigestValue></Reference></SignedInfo><SignatureValue>rzVUBw3AbwN7gAyBLvQ+hIC3OWcCGP7wnFtuYTtEJMZeS8az7pOkpqaeVy06wroYciVzfyvUSWryasuYCoM0Dk8TODZkZ/+heGRHCpsJl83A+3BTG/3h3+VdaEUkEKYQBaM6UB2pwPZS67n+7vI/Y9qtjMhytNUcE15NcFzZGLA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>+rtIgBR74l9+B1AkMWyxZwG2MhrOVYPsUd8ZXxNxH3OqUtw3ogNPLzwPdZ4HRfgCxGWGD22NfCUFWbAtO+TruFp+lf+ITirwS3SODiNDD0WdQNkDHIw9tmSasa21o2Yfsyw1szRF7wqZfC3PyiVJ7PIybxhdZminMpFoSA+S0Mk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQPPFs489Z54RPb9+fKHCdODANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigATABBAFAAVABPAFAALQBHADgAQgBBAFEAOAA0AFUAXABtAGMAYQBuMB4XDTIxMTIxNjE4MTIzMloXDTIyMTIxNzAwMTIzMlowMzExMC8GA1UEAx4oAEwAQQBQAFQATwBQAC0ARwA4AEIAQQBRADgANABVAFwAbQBjAGEAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA+rtIgBR74l9+B1AkMWyxZwG2MhrOVYPsUd8ZXxNxH3OqUtw3ogNPLzwPdZ4HRfgCxGWGD22NfCUFWbAtO+TruFp+lf+ITirwS3SODiNDD0WdQNkDHIw9tmSasa21o2Yfsyw1szRF7wqZfC3PyiVJ7PIybxhdZminMpFoSA+S0MkCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAGrFIlIMwGATTgo7YRP7dX2HHEm65yzqby1tnrj2MC8LkgUebAStMSjJ9NHSYgCRMGa692fhNY7G1Q3aovP8WK9DLymok7l2h38hcURUJlSugw4sMBzotKUn1U5JTnmpvQpKn6JE6vqrrMFN+FdlfaESTY9G/fJ1r3dJRFdt4kSw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

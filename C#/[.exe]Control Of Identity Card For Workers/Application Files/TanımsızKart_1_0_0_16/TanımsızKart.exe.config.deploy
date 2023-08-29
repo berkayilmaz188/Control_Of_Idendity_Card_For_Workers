@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+    </configSections>
+    <connectionStrings>
+        <add name="TanımsızKart.Properties.Settings.KayıtlarConnectionString"
+            connectionString="Data Source=LAPTOP-G8BAQ84U\SQLEXPRESS;Initial Catalog=Kayıtlar;Integrated Security=True"
+            providerName="System.Data.SqlClient" />
+    </connectionStrings>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
+    </startup>
+</configuration>
